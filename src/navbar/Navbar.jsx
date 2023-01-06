@@ -1,5 +1,5 @@
 import "./navbar.scss"
-import "../../App.css"
+
 import ReorderIcon from '@mui/icons-material/Reorder';
 import { useState } from "react";
 import SearchIcon from '@mui/icons-material/Search';
