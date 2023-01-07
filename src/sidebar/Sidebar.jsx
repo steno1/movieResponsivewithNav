@@ -1,33 +1,43 @@
 import "./sidebar.scss"
+import { SideData } from "../data/Data";
+import { useState } from "react";
+
 const Sidebar=()=>{
+    const [selected, setSelected]=useState(0)
     return(
         <div className="sidebar">
         {/* logo */}
        <div className="top">
-                <span>PrinceleyAdmin</span>
+                <span>Prince<span>ley</span>Admin</span>
        </div> 
-        {/* list */}
-       <div className="center">
-                <ul>
-                    <li>
-                        <span>Dashboard</span>
-                    </li>
-                    <li>
-                        <span>Dashboard</span>
-                    </li>
-                    <li>
-                        <span>Dashboard</span>
-                    </li>
-                    <li>
-                        <span>Dashboard</span>
-                    </li>
-                </ul>
-       </div> 
+        {/* center */}
+        {SideData.map((item, index)=>{
+            return (
+                <div className="center">
+                {/*when div is clicked, use "centerItem active"
+                else use "centerItem" */}
+        <div className= {selected===index?"centerItem active":"centerItem"}
+        onClick={()=>setSelected(index)} key={index}>
+        <div><item.icon/></div>
+        <span>{item.heading}</span>
+        </div>
+        </div>
+            )
+           
+        })}
+       
+
+
+
         {/* color options*/}
        <div className="bottom">
             color options
-       </div> 
+        
 
+        </div>
+        
+        
+       
         
         </div>
     )
