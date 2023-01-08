@@ -16,17 +16,27 @@ const Sidebar=()=>{
                 <div className="center">
                 {/*when div is clicked, use "centerItem active"
                 else use "centerItem" */}
+                
         <div className= {selected===index?"centerItem active":"centerItem"}
         onClick={()=>setSelected(index)} key={index}>
-        <div><item.icon/></div>
+    
+    
+        <div className="icon">
+        <item.icon/>
+        </div>
+        
+        
         <span>{item.heading}</span>
         </div>
+        
+        
         </div>
             )
         })}
         {/* color options*/}
        <div className="bottom">
-            color options
+            <div className="colorOption"></div>
+            <div className="colorOption"></div>
         </div>
         </div>
     )

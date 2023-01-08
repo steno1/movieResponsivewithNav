@@ -1,9 +1,12 @@
 .navbar{
-    background-color: rgb(30, 27, 27);
+    background-color:#0081c9;
     width: 100%;
     height: 80px;
     color: white;
     display: flex;
+    padding: 5px;
+    align-items: center;
+    font-size: 14px;
     .left{
         flex: 50%;
         
@@ -11,6 +14,13 @@
         justify-content: left;
         align-items: center;
         .links{
+          display: flex;
+          .items{
+            display: flex;
+            gap: 1rem;
+
+          }
+          
             
             max-height: 80px;
             a{
@@ -95,22 +105,32 @@ color: black;
   @media screen and (max-width:650px) {
     .navbar{
       .left{
+
         .links{
             
                 display: none;
+
             
         }
          #flexible{
             position: absolute;
-            left: 0;
+            left: 60px;
+            
             top: 80px;
-            height: 230px;
+            height: 300px;
             width: 100%;
-            background-color: rgb(30, 27, 27);
+            background-color:#0081c9;
             display: flex;
             flex-direction: column;
             align-items: center;
             max-height: 230px;
+            justify-content: center;
+            padding: 15px;
+            .items{
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            }
             
              
             a{
