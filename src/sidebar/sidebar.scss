@@ -7,10 +7,6 @@ transition: all 300ms ease;
 background-color: #fffbeb;
 gap: 3rem;
 
-
-
-
-
 .top{
     display: flex;
     gap: 1rem;
@@ -51,17 +47,15 @@ gap: 3rem;
         border-radius: 0.7rem;
         color: blue;
         font-weight: 500;
-        
-
-        
     &.active{
         background-color: #A0C3D2;
         margin-left: 0;
         &.active::before{
             background-color: #C85C8E;
             content: " ";
-            width: 8px;
+           width: 8px;
             height: 100%;
+            margin-right:calc(1rem - 8px);
         }
     }
 

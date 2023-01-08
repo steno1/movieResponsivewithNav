@@ -1,6 +1,7 @@
 import "./home.scss"
 import Sidebar from "../../sidebar/Sidebar";
 import Navbar from "../../navbar/Navbar";
+import Maindash from "../../maindash/Maindash";
 const Home=()=>{
     return(
         <div className="home">
@@ -8,9 +9,7 @@ const Home=()=>{
         <div className='homeGlass'>
 
     <Sidebar/>
-    <div style={{backgroundColor:"yellow"}}>
-
-    </div>
+    <Maindash/>
     <div style={{backgroundColor:"blue"}}>
 
     </div>

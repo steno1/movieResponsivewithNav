@@ -23,22 +23,11 @@ const Sidebar=()=>{
         </div>
         </div>
             )
-           
         })}
-       
-
-
-
         {/* color options*/}
        <div className="bottom">
             color options
-        
-
         </div>
-        
-        
-       
-        
         </div>
     )
 }
