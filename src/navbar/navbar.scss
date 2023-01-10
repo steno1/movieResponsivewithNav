@@ -18,7 +18,36 @@
           .items{
             display: flex;
             gap: 1rem;
-
+.item{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+  .icon{
+    font-size: 20px;
+  }
+  .steno{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .counter{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+  }
+}
           }
           
             
@@ -61,6 +90,8 @@ border-radius: 5px;
 font-size: 20px;
 padding-left: 15px;
 color: black;
+outline: none;
+
         }
         button{
             height: 32px;

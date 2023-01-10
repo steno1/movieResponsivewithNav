@@ -24,20 +24,30 @@ return(
 //compardCard
 const CompardCard=({params})=>{
     const Png=params.png;
+    const Icon=params.icon;
+    
 return(
     <div className="compardCard" 
     style={{background:params.color.backGround,
     boxShadow:params.color.boxShadow}}>
-<div className="radialBar">
+    <div className="title">
+        <span>{params.title}</span>
+        <span>{params.value}</span>
+        <span>{params.message}</span>
+    </div>
+{/* <div className="radialBar">
 <CircularProgressbar
     value={params.barValue}
     text={`${params.barValue }%`} 
 />
-</div>
+</div> */}
 <div className="details">
-<Png/>
-<span>${params.value}</span>
-<span>Last 24 hours</span>
+<div>
+<Icon/>
+   <span className="positive">{params.percentage}</span> 
+</div>
+
+<Png className="png" style={{background:params.colors}}/>
 
 </div>
 <div className="detail">

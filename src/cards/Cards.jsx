@@ -15,6 +15,10 @@ const Cards=()=>{
     barValue={card.barValue}
     value={card.value}
     png={card.png}
+    message={card.message}
+    icon={card.icon}
+    percentage={card.percentage}
+    colors={card.colors}
 />
 </div>
     )
