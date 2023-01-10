@@ -1,12 +1,9 @@
-//import {
+import {
     
-//UilEstate,
-//UilClipboardAlt,
-//UilUsersAlt,
-//UilChart,
-//UilSignOutAlt,
+UilEstate,
 
-//} from"@iconscout/react-unicons"
+
+} from"@iconscout/react-unicons"
 
 import DashboardOutlinedIcon from '@mui/icons-material/DashboardOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
@@ -82,5 +79,61 @@ export const SideData=[
         heading:"Logout"
     },
     
+    
+]
+export const CardsData=[
+    {
+        title:"Sales",
+        color:{
+            
+            backGround: "#285430",
+            boxShadow:" 10px 10px 5px 0px rgba(0,0,0,0.75)",
+           
+        },
+        barValue:70,
+        value:"28,780",
+        png:UilEstate,
+        series:[
+            {
+                   data:[32, 43, 29, 106, 100],
+            }
+        ]
+    },
+    {
+        title:"Revenue",
+        color:{
+         backGround: "#B73E3E",
+           
+           boxShadow:" 10px 10px 5px 0px rgba(0,0,0,0.75)",
+           
+        },
+        barValue:80,
+        value:"24,780",
+        png:UilEstate,
+        series:[
+            {
+                name:"Sales",
+                data:[32, 43, 29, 106, 100],
+            }
+        ]
+    },
+    {
+        title:"Expenses",
+        color:{
+            backGround:"#594545",
+           
+            boxShadow:"10px 10px 5px 0px rgba(0,0,0,0.75)",
+           
+        },
+        barValue:50,
+        value:"20,780",
+        png:UilEstate,
+        series:[
+            {
+                name:"Sales",
+                data:[32, 43, 29, 106, 100],
+            }
+        ]
+    },
     
 ]

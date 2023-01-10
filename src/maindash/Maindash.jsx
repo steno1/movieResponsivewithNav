@@ -1,10 +1,11 @@
 import './maindash.scss'
-import Card from '../component/cards/Card';
+import Cards from '../cards/Cards';
 const Maindash=()=>{
     return(
         <div className="maindash">
 <h1>Dashboard</h1>
-<Card/>
+<Cards/>
+
         </div>
     )
 }
