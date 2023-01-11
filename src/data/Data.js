@@ -104,7 +104,7 @@ export const CardsData=[
         
         png:PersonOutlineOutlinedIcon,
         series:[
-            {
+            {name:'users',
                    data:[32, 43, 29, 106, 100],
             }
         ]
@@ -126,8 +126,8 @@ export const CardsData=[
         png:ShoppingBagOutlinedIcon,
         series:[
             {
-                name:"Sales",
-                data:[32, 43, 29, 106, 100],
+                name:"orders",
+                data:[9, 12, 13, 43, 7],
             }
         ]
     },
@@ -149,8 +149,8 @@ export const CardsData=[
         png:PaidOutlinedIcon,
         series:[
             {
-                name:"Sales",
-                data:[32, 43, 29, 106, 100],
+                name:"Earning",
+                data:[87, 65, 29, 106, 76],
             }
         ]
     },
@@ -171,8 +171,8 @@ export const CardsData=[
         png:AccountBalanceWalletOutlinedIcon,
         series:[
             {
-                name:"Sales",
-                data:[32, 43, 29, 106, 100],
+                name:"balance",
+                data:[9, 23, 25, 32, 37],
             }
         ]
     },

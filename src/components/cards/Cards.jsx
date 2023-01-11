@@ -1,5 +1,5 @@
 import "./Cards.scss"
-import { CardsData } from "../data/Data"
+import { CardsData } from "../../data/Data"
 import Card from "../card/Card"
 const Cards=()=>{
     return(
@@ -19,6 +19,7 @@ const Cards=()=>{
     icon={card.icon}
     percentage={card.percentage}
     colors={card.colors}
+    series={card.series}
 />
 </div>
     )
