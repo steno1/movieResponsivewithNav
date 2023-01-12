@@ -5,9 +5,9 @@ import BasicTable from '../components/table/Table';
 const Maindash=()=>{
     return(
         <div className="maindash">
-<h1>Dashboard</h1>
+        <h3>Dashboard</h3>
 <Cards/>
-<BasicTable/>
+<Table/>
 
         </div>
     )

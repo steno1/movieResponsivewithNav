@@ -1,6 +1,6 @@
 import "./home.scss"
-import Sidebar from "../../sidebar/Sidebar";
-import Navbar from "../../navbar/Navbar";
+import Sidebar from "../../components/sidebar/Sidebar";
+import Navbar from "../../components/navbar/Navbar";
 import Maindash from "../../maindash/Maindash";
 const Home=()=>{
     return(
@@ -10,8 +10,8 @@ const Home=()=>{
 
     <Sidebar/>
     <Maindash/>
-    <div style={{backgroundColor:"blue"}}>
-
+    <div >
+third division
     </div>
     </div> 
            

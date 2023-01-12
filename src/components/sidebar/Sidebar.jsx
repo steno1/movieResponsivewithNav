@@ -1,5 +1,5 @@
 import "./sidebar.scss"
-import { SideData } from "../data/Data";
+import { SideData } from "../../data/Data";
 import { useState } from "react";
 
 const Sidebar=()=>{

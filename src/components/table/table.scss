@@ -1,0 +1,31 @@
+.Table{
+    margin: 10px;
+    
+    
+    h4{
+      padding: 10px;
+      color: #0081c9;  
+    }
+    .MuiTableRow-root{
+        background-color: #82AAE3;
+        padding: 10px !important;
+        
+       
+    }
+    .MuiTableCell-root.MuiTableCell-head{
+        font-weight: bold !important;
+       // display: flex !important;
+       // justify-content: center !important;
+    }
+    .MuiTableCell-root.MuiTableCell-body{
+border: none;
+    }
+    .Table td,th{
+        border: none !important;
+    }
+    .Table:first-child{
+        border-radius: 0.7 !important;
+    }
+    
+    
+}
