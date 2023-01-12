@@ -1,9 +1,4 @@
-import {
-    
-UilEstate,
 
-
-} from"@iconscout/react-unicons"
 
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
@@ -22,6 +17,11 @@ import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import SettingsApplicationsOutlinedIcon from '@mui/icons-material/SettingsApplicationsOutlined';
 import PeopleOutlinedIcon from '@mui/icons-material/PeopleOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
+
+//import images
+import Img1 from "../images/Img1.jpg"
+import Img2 from "../images/Img2.jpg"
+import Img3 from "../images/Img3.jpg"
 export const SideData=[
   
 
@@ -177,4 +177,31 @@ export const CardsData=[
         ]
     },
     
+]
+export const UpdateData=[
+    {
+        img:Img1,
+        name:"onu",
+        noti:"coming",
+        time:"45 min ago"
+    },
+    {
+        img:Img1,
+        name:"steno",
+        noti:"going",
+        time:"65 min ago"
+    },
+    {
+        img:Img2,
+        name:"Toochukwu",
+        noti:"hurting",
+        time:"15 min ago"
+    },
+    {
+        img:Img3,
+        name:"onu",
+        noti:"coming",
+        time:"45 min ago"
+    },
+
 ]

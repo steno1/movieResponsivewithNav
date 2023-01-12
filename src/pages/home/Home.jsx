@@ -2,6 +2,7 @@ import "./home.scss"
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Maindash from "../../maindash/Maindash";
+import Rightside from "../../components/rightSide/Rightside";
 const Home=()=>{
     return(
         <div className="home">
@@ -10,9 +11,7 @@ const Home=()=>{
 
     <Sidebar/>
     <Maindash/>
-    <div >
-third division
-    </div>
+    <Rightside/>
     </div> 
            
         </div>

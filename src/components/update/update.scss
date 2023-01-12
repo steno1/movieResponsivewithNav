@@ -1,0 +1,30 @@
+.update{
+    width: 85%;
+    margin-top: 0;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    img{
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    .updates{
+        display: flex;
+        gap: 0.5rem;
+        .noti{
+            .noti2{
+
+            span{
+                &:nth-child(1){
+                    color: red;
+                    font-weight: bold;
+                }
+            }
+            }
+        }
+        
+    }
+}
