@@ -129,3 +129,20 @@ color: white;
         width: 70%;
     }
 }
+//Tablet responsiveness
+@media screen and (max-width:1200px) {
+    .expandedCard{
+        top: 2rem;
+        height: 70vh;
+        left: 6rem;
+    }
+}
+//mobile responsiveness
+@media screen and (max-width:768px) {
+   .expandedCard{
+    top: 8rem;
+    height: 50%;
+    left: 25px;
+    width: 80%;
+   }
+}

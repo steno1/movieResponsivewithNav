@@ -121,6 +121,7 @@ outline: none;
   //mobile responsiveness
   @media screen and (max-width:750px) {
     .navbar{
+      z-index: 9999;
       .left{
         .links{
             a{

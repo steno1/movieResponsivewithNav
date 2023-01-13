@@ -2,11 +2,39 @@
    
     display: flex;
     gap :10px;
-    margin-top: 25px;
-    margin-bottom: 35px;
+    //margin-top: 25px;
+    //margin-bottom: 35px;
 .parentContainer{
 width: 100%;
 
 
 }
+}
+//Tablets responsiveness
+@media screen and (max-width:1200px) {
+    .cards{
+        flex-direction: column;
+       // justify-content: center;
+       // align-items: center;
+        
+       
+        .parentContainer{
+        
+            height: 9rem;
+           // padding: 0.625rem;
+           // width: 70%;
+        
+            
+        }
+    }
+}
+//mobile responsiveness
+@media screen and (max-width:768px) {
+   .cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 30px;
+
+   }
 }

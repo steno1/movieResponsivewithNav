@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     background-color: #fffbeb;
+    justify-content: center;
     
     }
     
@@ -13,7 +14,25 @@
       display: grid;
       height: 100vh;
       width: 100vw;
-     // overflow: hidden;
+      overflow: hidden;
       grid-template-columns: 11rem auto 20rem;
       
     }
+    //Tablet responsiveness
+    @media screen and (max-width:1200px) {
+     .homeGlass{
+    
+      display: grid;
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+     } 
+    }
+    //mobile responsiveness
+    @media screen and (max-width:768px) {
+      .homeGlass{
+        
+        grid-template-columns: 1fr;
+        
+      }
+      
+  }

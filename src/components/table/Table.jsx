@@ -48,21 +48,21 @@ return({
 export default function BasicTable() {
   return (
     <div className='Table'>
-    <h4>Recent Order</h4>
+    <h3>Recent Orders</h3>
     <TableContainer component={Paper}
     style={{boxShadow:"0px 13px 20px #80808029"}}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Product</TableCell>
-            <TableCell >Tracking Id</TableCell>
-            <TableCell >Dates</TableCell>
-            <TableCell >Status</TableCell>
-            <TableCell >Details</TableCell>
+            <TableCell align="left">Product</TableCell>
+            <TableCell align="left">Tracking Id</TableCell>
+            <TableCell align="left">Dates</TableCell>
+            <TableCell align="left">Status</TableCell>
+            <TableCell align="left">Details</TableCell>
            
           </TableRow>
         </TableHead>
-        <TableBody>
+        <TableBody style={{color:"white"}}>
           {rows.map((row) => (
             <TableRow
               key={row.name}
@@ -70,10 +70,10 @@ export default function BasicTable() {
             >
               <TableCell component="th" scope="row">
                 {row.name}
-              </TableCell>
-              <TableCell>{row.trackingId}</TableCell>
-              <TableCell >{row.date}</TableCell>
-              <TableCell>
+              </TableCell >
+              <TableCell align="left">{row.trackingId}</TableCell>
+              <TableCell align="left" >{row.date}</TableCell>
+              <TableCell align="left">
               {/* making the status have different colors dynamically*/}
                 <span className='status' style={makeStyle(row.status)}>
 {row.status}

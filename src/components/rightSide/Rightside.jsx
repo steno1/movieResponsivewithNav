@@ -4,7 +4,7 @@ import Customer from '../customerReview/Customer';
 const Rightside=()=>{
     return(
         <div className="rightside">
-<div className=''>
+<div className='items'>
 <h3>Update</h3>
 <Update/>
 <Customer/>
