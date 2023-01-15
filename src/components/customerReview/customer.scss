@@ -1,0 +1,12 @@
+//mobile responsiveness
+@media screen and (max-width:768px) {
+    .customer{
+position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 300px !important;
+   height: 400px;
+    justify-content: center;
+   }
+}

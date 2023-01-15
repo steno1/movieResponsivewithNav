@@ -1,13 +1,16 @@
 import './rightside.scss'
-import Update from '../update/Update';
+//import Update from '../update/Update';
 import Customer from '../customerReview/Customer';
+import Features from '../features/Features';
+import Chart from "../../components/chart/Chart.jsx"
 const Rightside=()=>{
     return(
         <div className="rightside">
 <div className='items'>
-<h3>Update</h3>
-<Update/>
-<Customer/>
+
+<Features/>
+<Chart/>
+
 
 </div>
 

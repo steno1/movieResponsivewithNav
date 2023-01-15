@@ -1,0 +1,110 @@
+.features{
+    box-shadow: 10px 10px 5px 0px rgba(165, 187, 245, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(161, 185, 246, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(178, 194, 236, 0.75);
+background-color: #0081B4; 
+margin: 6px;
+padding: 5px;
+border-radius: 8px;
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(230, 208, 208);
+    
+    .title{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.bottom{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #0081B4; 
+    color: white;
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        color: white;
+        padding: 10px;
+    }
+}
+.featuredChart{
+    height: 50px;
+    width: 50px;
+ //.circularProgressbar. check name by inspecting on chrome
+ .CircularProgressbar-path{
+    stroke: white!important;
+    stroke-width: 12px !important;
+    filter: drop-shadow(2px 2px 2px white);
+        }
+        .CircularProgressbar{
+            width: 4rem !important;
+            overflow: visible;
+            padding: 5px !important;
+        }
+        .CircularProgressbar-trail{
+            display: none;
+        }
+        .CircularProgressbar-text{
+            fill: white!important;
+
+        }
+}
+
+    
+
+.title{
+    font-weight: 500;
+    color: white;
+
+}
+.amount{
+    font-size: 30px;
+}
+.desc{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+.summary{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .item{
+        text-align: center;
+
+        .itemTitle{
+font-size: 14px;
+        }
+        .itemResult{
+display: flex;
+align-items: center;
+margin-top: 10px;
+font-size: 14px;
+
+&.positive{
+background-color: green;
+border-radius: 20%;
+padding: 1px;
+}
+&.negative{
+background-color: red;
+border-radius: 20%;
+padding: 1px;
+}
+        }
+    }
+}
+}

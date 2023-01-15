@@ -1,0 +1,18 @@
+@media screen and (max-width:1200px) {
+    .chart{
+        
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .chart{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50px;
+        background-color:rgb(160, 212, 160);
+        margin-top: 20px;
+    }
+}

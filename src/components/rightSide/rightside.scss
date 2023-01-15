@@ -3,6 +3,17 @@
     flex-direction: column;
     width: 95%;
     justify-content: space-evenly;
+    margin-left: 14px;
+    .items{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+        .chart{
+            width: 100%;
+            position: relative;
+        }
+    }
 }
 @media screen and (max-width:1200px) {
     .rightside{
