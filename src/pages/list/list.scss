@@ -1,0 +1,38 @@
+.list{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fffbeb;
+    justify-content: center;
+    
+    }
+    
+    
+    .listGlass{
+      background-color: #fffbeb;
+      display: grid;
+      height: 100vh;
+      width: 100vw;
+      //overflow: hidden;
+      grid-template-columns: 12rem auto ;
+      
+    }
+    //Tablet responsiveness
+    @media screen and (max-width:1200px) {
+     .listGlass{
+    
+      display: grid;
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+     } 
+    }
+    //mobile responsiveness
+    @media screen and (max-width:768px) {
+      .listGlass{
+        
+        grid-template-columns: 1fr;
+        
+      }
+      
+  }

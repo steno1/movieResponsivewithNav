@@ -20,7 +20,9 @@ const data = [
 const Chart=()=>{
     return(
         <div className="chart" style={{height:"100%", width:"100%"}}>
-        <div style={{height:"100%", width:"80%"}}>
+        <div  className="second" style={{height:"100%", width:"80%"}}>
+        <h4 className="title" style={{color:"#1C82AD"}}>
+        Last 6 Months(Revenue) </h4>
  <ResponsiveContainer width="99%" height={100 }>
  <AreaChart width={730} height={250} data={data}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>

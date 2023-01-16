@@ -1,17 +1,29 @@
+.chart{
+    //height: 400px !important;
+    width: 480px !important;
+}
+
 @media screen and (max-width:1200px) {
     .chart{
+        margin-top: 20px;
+        .second{
         
+        .title{
+            margin-bottom: 20px;
+            color: gray;
+        }
     }
+}
 }
 
 
 @media screen and (max-width:768px) {
     .chart{
-        
+    
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 50px;
+        width: 300px !important;
         background-color:rgb(160, 212, 160);
         margin-top: 20px;
     }

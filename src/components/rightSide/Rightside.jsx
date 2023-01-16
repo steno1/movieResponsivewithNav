@@ -8,8 +8,8 @@ const Rightside=()=>{
         <div className="rightside">
 <div className='items'>
 
-<Features/>
-<Chart/>
+<Features className="features"/>
+<Chart className="chart"/>
 
 
 </div>

@@ -151,7 +151,7 @@ height: 20px;
 //mobile responsiveness
 @media screen and (max-width:768px) {
     .all{
-
+margin-top: 0 !important;
    
     .sidebar{
         position: fixed;
@@ -160,6 +160,7 @@ height: 20px;
         width: 55%;
         padding-right: 1rem;
         height: 100%;
+        margin-top: 0 !important;
 
         .top{
         display: flex;
@@ -184,11 +185,11 @@ height: 20px;
     
     display: flex;
     z-index: 9999;
-    position: fixed;
+   // position: fixed;
     top: 5.4rem;
     background-color: #C85C8E;
     padding: 10px;
-    border-radius: 5px;
+   // border-radius: 5px;
 }
 }
 }

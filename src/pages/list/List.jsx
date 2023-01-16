@@ -1,8 +1,20 @@
 import "./list.scss"
+import Navbar from "../../components/navbar/Navbar";
+import Sidebar from "../../components/sidebar/Sidebar";
+import DataTable from "../../components/dataTable/DataTable";
 const List=()=>{
     return(
-        <div className="list">
-            list
+        <div className="List">
+        <Navbar/>
+        <div className='listGlass'>
+
+    <Sidebar/>
+    <div className="listContainer" >
+<DataTable/>
+    </div>
+    
+    </div> 
+           
         </div>
     )
 }
