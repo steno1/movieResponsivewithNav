@@ -1,7 +1,16 @@
+.datatables{
+    text-align: center;
+    padding-left: 20px;
+    
+    
+    
+    width: 100%;
 .datatable{
-    height:500px;
+    height:600px;
     margin-top: 20px;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
     .cellWithImage{
         display: flex;
         align-items: center;
@@ -13,4 +22,27 @@
             margin-right: 20px;
         }
     }
+    .cellAction{
+display: flex;
+align-items: center;
+gap: 15px;
+    
+    .DeleteButton{
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: crimson;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+        margin: 4px 0;
+    }
+    .viewButton{
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0,0,139,0.596);
+        cursor: pointer;
+        margin: 4px 0;
+    }
+}
+}
 }

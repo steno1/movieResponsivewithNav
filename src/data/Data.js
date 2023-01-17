@@ -211,22 +211,22 @@ const makeStyle=(status)=>{
 if(status==="pending"){
     return{
         background:"#FFDB89",
-        padding:"5px",
-        borderRadius:"40%"
+        padding:"2px",
+        borderRadius:"10%"
     }
 
 }
 if (status==="active"){
 return{
     background:"#ABC270",
-    padding:"5px",
-    borderRadius:"40%"
+    padding:"2px",
+    borderRadius:"10%"
 }
 } else{
     return{
         background:"#FDA769",
-        padding:"5px",
-        borderRadius:"40%" 
+        padding:"2px",
+        borderRadius:"10%" 
     }
 }
 }
@@ -235,7 +235,7 @@ export const Usercolumns=[
     { field: 'id', headerName: 'ID', width: 70 },
     { field: 'user',
      headerName: 'User',
-      width: 200,
+      width: 160,
     renderCell:(params)=>{return(
         <div className="cellWithImage">
 <img className="cellImage" src={params.row.img} alt=''/>
@@ -243,15 +243,15 @@ export const Usercolumns=[
         </div>
     )} },
 
-    { field: 'email', headerName: 'Email', width: 130 },
+    { field: 'email', headerName: 'Email', width: 160 },
     
 
-    { field: 'lastName', headerName: 'Last name', width: 100 },
+    { field: 'lastName', headerName: 'Last name', width: 110 },
     {
         field: 'age',
         headerName: 'Age',
         type: 'number',
-        width: 90,
+        width: 80,
       },
     
     {
@@ -259,7 +259,7 @@ export const Usercolumns=[
       headerName: 'Full name',
       description: 'This column has a value getter and is not sortable.',
       sortable: false,
-      width: 120,
+      width: 140,
       renderCell:(params)=>{
         return(
             <>
@@ -274,8 +274,7 @@ export const Usercolumns=[
     {
         field: 'status',
         headerName: 'Status',
-        type: 'number',
-        width: 160,
+        width: 80,
         renderCell:(params)=>{
             return(
               

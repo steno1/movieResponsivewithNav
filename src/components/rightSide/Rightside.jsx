@@ -1,6 +1,6 @@
 import './rightside.scss'
 //import Update from '../update/Update';
-import Customer from '../customerReview/Customer';
+//import Customer from '../customerReview/Customer';
 import Features from '../features/Features';
 import Chart from "../../components/chart/Chart.jsx"
 const Rightside=()=>{
@@ -9,7 +9,9 @@ const Rightside=()=>{
 <div className='items'>
 
 <Features className="features"/>
-<Chart className="chart"/>
+<Chart className="chart" aspect={3 / 1} 
+    title="Last 6 Months (Revenue)"
+/>
 
 
 </div>
