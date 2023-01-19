@@ -1,6 +1,14 @@
 .chart{
     //height: 400px !important;
     width: 480px !important;
+    .chartGrid{
+        stroke: none;
+            }
+    .second{
+        .title{
+            color: #1C82AD;
+        }
+    }
 }
 
 @media screen and (max-width:1200px) {

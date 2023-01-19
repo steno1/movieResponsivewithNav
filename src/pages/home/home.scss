@@ -3,19 +3,21 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #fffbeb;
+   // background-color: #fffbeb;
     justify-content: center;
+   // background-color: red;
     
     }
     
     
     .homeGlass{
-      background-color: #fffbeb;
+      //background-color: #fffbeb;
       display: grid;
       height: 100vh;
       width: 100vw;
       //overflow: hidden;
       grid-template-columns: 10rem auto 25rem;
+      //background-color: green;
       
     }
     //Tablet responsiveness
@@ -25,6 +27,7 @@
       display: grid;
       grid-template-columns: 10% 50% auto;
       overflow-y: scroll;
+      
      } 
     }
     //mobile responsiveness

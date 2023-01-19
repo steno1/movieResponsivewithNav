@@ -14,23 +14,26 @@ const makeStyle=(status)=>{
 if(status==="Approved"){
 return({
     background:"#3C79F5",
+    opacity:0.8,
     borderRadius:"20px",
     padding:"4px",
-    color:"white"
+    color:"black"
 })
 } if(status==="Pending"){
     return({
         background:"#FFDB89",
         borderRadius:"20px",
     padding:"4px",
-    color:"#144272"
+    color:"#144272",
+    opacity:0.8,
     })
 } else{
     return({
         background:"#227C70",
         borderRadius:"20px",
     padding:"4px",
-    color:"white"
+    color:"black",
+    opacity:0.8,
     })
 }
 }

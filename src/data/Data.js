@@ -18,6 +18,7 @@ import SettingsApplicationsOutlinedIcon from '@mui/icons-material/SettingsApplic
 import PeopleOutlinedIcon from '@mui/icons-material/PeopleOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 
+
 //import images
 import Img1 from "../images/Img1.jpg"
 import Img2 from "../images/Img2.jpg"
@@ -212,7 +213,9 @@ if(status==="pending"){
     return{
         background:"#FFDB89",
         padding:"2px",
-        borderRadius:"10%"
+        borderRadius:"10%",
+        opacity:0.8,
+        color:"black"
     }
 
 }
@@ -220,13 +223,17 @@ if (status==="active"){
 return{
     background:"#ABC270",
     padding:"2px",
-    borderRadius:"10%"
+    borderRadius:"10%",
+    opacity:0.8,
+    color:"black",
 }
 } else{
     return{
         background:"#FDA769",
         padding:"2px",
-        borderRadius:"10%" 
+        borderRadius:"10%",
+        opacity:0.8, 
+        color:"black",
     }
 }
 }
@@ -338,4 +345,83 @@ export const UserRows=[
         email:"nnamdi@gmail.com",
         age:"33",
     }
+]
+//form Data
+export const UserInput=[
+{
+    id:1,
+    label:"Username",
+    type:"text",
+    placeholder:"Princeley"
+},
+{
+    id:2,
+    label:"Name and Surname",
+    type:"text",
+    placeholder:"Princeley Onu"
+},
+{
+    id:3,
+    label:"Email",
+    type:"text",
+    placeholder:"Princeley@yahoo.com"
+},
+{
+    id:4,
+    label:"Phone",
+    type:"text",
+    placeholder:"your Phone number"
+},
+{
+    id:5,
+    label:"Password",
+    type:"text",
+    placeholder:"Your password"
+},
+{
+    id:6,
+    label:"Address",
+    type:"text",
+    placeholder:"your Address"
+},
+{
+    id:7,
+    label:"Country",
+    type:"text",
+    placeholder:"Nigeria"
+},
+
+]
+//product inputs
+export const ProductInput=[
+    {
+        id:1,
+        label:"Title",
+        type:"text",
+        placeholder:"I phone 13"
+    },
+    {
+        id:2,
+        label:"Description",
+        type:"text",
+        placeholder:"Description"
+    },
+    {
+        id:3,
+        label:"Category",
+        type:"text",
+        placeholder:"Phones"
+    },
+    {
+        id:4,
+        label:"Price",
+        type:"text",
+        placeholder:"950"
+    },
+    {
+        id:5,
+        label:"Stock",
+        type:"text",
+        placeholder:"in stock"
+    },
 ]

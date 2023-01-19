@@ -4,7 +4,9 @@ import Home from './pages/home/Home';
 import Login from './pages/login/Login';
 import Single from './pages/single/Single';
 import New from './pages/new/New';
-import "./App.css"
+import "./App.scss"
+import './style/dark.scss'
+import {UserInput,  ProductInput} from "./data/Data.js"
 
 import {
   BrowserRouter,
@@ -12,11 +14,13 @@ import {
   Route,
   
 } from "react-router-dom";
+import { useContext } from 'react';
+import { DarkModeContext } from './context/DarkModeContext';
 
 function App() {
-
+const {darkMode}=useContext(DarkModeContext)
   return (
-    <div className="App">
+    <div className={darkMode?"dark app":"app"}>
     < BrowserRouter>
     <Routes>
      <Route path="/">
@@ -25,13 +29,21 @@ function App() {
 <Route path='users'>
 <Route index element={<List/>}/>
 <Route path=':userId' element={<Single/>}/>
-<Route path='new' element={<New/>}/>
+{/* called UserInput from Data source using input prop and 
+title prop for dynamic heading */}
+<Route path='new' element={<New input={UserInput}
+  title="Add New User"
+/>}/>
 </Route>
 
 <Route path='products'>
 <Route index element={<List/>}/>
 <Route path=':productId' element={<Single/>}/>
-<Route path='new' element={<New/>}/>
+{/* called ProductInput from Data source using input prop 
+and Title prop for dynamic headings*/}
+<Route path='new' element={<New input={ProductInput}
+  title="Add New Product"
+/>}/>
 </Route>
      </Route> 
      </Routes>

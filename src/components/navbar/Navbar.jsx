@@ -9,7 +9,10 @@ import FullscreenExitOutlinedIcon from '@mui/icons-material/FullscreenExitOutlin
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 import ListOutlinedIcon from '@mui/icons-material/ListOutlined';
+import { DarkModeContext } from "../../context/DarkModeContext";
+import { useContext } from "react";
 const Navbar=()=>{
+    const {dispatch}=useContext(DarkModeContext);
     const [showLink, setShowLink]=useState(false)
     return(
         <div className="navbar">
@@ -21,7 +24,9 @@ const Navbar=()=>{
 English
 </div>
 <div className="item">
-<DarkModeOutlinedIcon className="icon"/>
+<DarkModeOutlinedIcon className="icon"
+    onClick={()=>dispatch({type:"TOGGLE"})}
+/>
 </div>
 <div className="item">
 <FullscreenExitOutlinedIcon className="icon"/>

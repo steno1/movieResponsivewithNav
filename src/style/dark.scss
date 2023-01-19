@@ -1,0 +1,390 @@
+.app.dark{
+    background-color: #222 !important; 
+    color: gray!important;
+    //side bar
+    .all{
+        .sidebar{
+          .top{
+            :hover{
+                background-color: black}
+            span{
+                color: gray;
+                
+                span{
+                    color: gray;
+                }
+               } 
+          }  
+        }
+        .center{
+            ul{
+                .title{
+                    color: gray;
+                }
+                li{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px;
+                    cursor: pointer;
+                    :hover{
+                        background-color: black;
+                    }
+                    .icon{
+                        font-size: 14px;
+                        color: gray;
+                    }
+                    span{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color:gray;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+//card component
+
+.compardCard{
+    color: black;
+    
+    .title{
+       
+        span:nth-child(1){
+
+color: black;
+        }
+        span:nth-child(3){
+           
+            border-bottom: 1px solid black;
+    
+        }
+        
+    }
+
+    //radial bar
+    .radialBar{
+        //.circularProgressbar. check name by inspecting on chrome
+    .CircularProgressbar-path{
+        stroke: black!important;
+        
+        filter: drop-shadow(2px 2px 2px black);
+            }
+            
+            .CircularProgressbar-text{
+                fill: black!important;
+
+            }
+    }
+    .details{
+        
+            span:nth-child(2){
+                
+                color: black;
+                
+                &.positive{
+                    background-color:green;
+                    
+                }
+                &.negative{
+                    background-color: red;
+                   
+                }
+            }
+            span:nth-child(3){
+               
+                color: black;
+            }
+            .png{
+                background-color: black;
+               
+            }
+               
+    }
+}
+
+.expandedCard{
+
+    span:nth-child(2){
+        color: black;
+        
+        text-shadow: 0px 0px 15px black;
+    }
+    span:nth-child(4){
+       color: black;
+      
+    }
+    
+}
+//mainDashBoard
+
+.maindash{ 
+    h3{
+         
+      color: gray;
+    }
+    
+    }
+    //Table
+
+
+    .Table{
+        .heading{
+            color: gray;
+        }
+        
+    
+        .table{
+         
+        .MuiTableRow-root>*{
+            background-color: gray;    
+           
+        }
+            
+    }
+    }
+   //features
+   .features{
+    box-shadow: 10px 10px 5px 0px rgba(165, 187, 245, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(161, 185, 246, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(178, 194, 236, 0.75);
+background-color: gray; 
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+    
+   
+}
+.bottom{
+   
+    background-color: gray; 
+    color: black;
+    .details{
+       
+        color: black;
+       
+    }
+}
+.featuredChart{
+    
+ //.circularProgressbar. check name by inspecting on chrome
+ .CircularProgressbar-path{
+    stroke: rgb(25, 17, 17) !important;
+    stroke-width: 12px !important;
+    filter: drop-shadow(2px 2px 2px gray);
+        }
+        
+        
+        .CircularProgressbar-text{
+            fill: rgb(18, 15, 15)!important;
+
+        }
+}
+
+.title{
+   
+    color: gray;
+
+}
+
+.summary{
+    
+    .item{
+        
+        .itemResult{
+&.positive{
+background-color: rgb(109, 144, 109);
+
+}
+&.negative{
+background-color: rgb(175, 89, 89);
+
+}
+        }
+    }
+}
+}     
+  //chart
+  .chart{
+    .chartGrid{
+stroke: none;
+    }
+    
+    .second{
+        .title{
+            color:gray;
+        }
+    }
+}      
+   
+//Navbar
+
+.navbar{
+    background-color:gray;
+    
+    color: black;
+    
+    .left{
+        
+        .links{
+    
+          .items{
+            
+.item{ 
+  .counter{
+    
+    background-color: white;
+    
+    color: gray;
+  }
+}
+          }
+          
+
+            a{
+               
+                color: gray;
+                
+            }
+        }
+       
+       
+    }
+   
+    
+  }
+//dataTable
+
+.datatables {
+    // text-align: center;
+    padding-left: 20px;
+    color: gray !important;
+
+
+    width: 100%;
+    .MuiDataGrid-cell{
+color: gray;
+    }
+    .MuiSvgIcon-root{
+        color: gray;
+    }
+    .MuiDataGrid{
+        color: gray;
+    }
+    .MuiDataGrid-columnHeaderTitle{
+        color: gray;
+    }
+
+    .datatable {
+       
+        .dataTableTitle {
+            
+            color: gray;
+            
+            .link{
+                text-decoration: none;
+               
+               color: gray;
+               
+               border: 1px solid white;
+               
+            }
+        }
+
+        .cellWithImage {
+            display: flex;
+            align-items: center;
+            color: gray;
+
+        }
+
+        .cellAction {
+            .DeleteButton {
+              
+                color: black;
+                background-color: wheat;
+                
+                border:1px dotted white;
+                
+            }
+
+            .viewButton {
+                background-color: wheat;
+                color: black;
+               
+                border: 1px dotted white;
+                
+            }
+        }
+    }
+}
+//single page
+
+.single{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   // background-color: #fffbeb;
+    justify-content: center;
+    
+    }
+    
+    
+    .singleGlass{
+      //background-color: #fffbeb;
+
+      display: grid;
+      height: 100vh;
+      width: 100vw;
+      //overflow: hidden;
+      grid-template-columns: 12rem auto ;
+      .general{
+       .info{
+        
+       
+        .top{
+            padding:20px;
+            display:flex;
+            gap: 20px;
+            .left{
+                position: relative;
+                flex:1;
+                box-shadow: 10px 10px 5px 0px rgba(165, 187, 245, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(161, 185, 246, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(178, 194, 236, 0.75);
+.editButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 15px;
+    color:black;
+    font-weight: 500;
+    
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 0 5px 0 5px;
+}
+
+            }
+           
+        }
+
+       } 
+      }
+     
+    }
+
+
+
+
+
+    
+
+}

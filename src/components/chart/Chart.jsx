@@ -21,7 +21,7 @@ const Chart=({aspect, title})=>{
     return(
         <div className="chart" style={{height:"100%", width:"100%"}}>
         <div  className="second" style={{height:"100%", width:"80%"}}>
-        <h4 className="title" style={{color:"#1C82AD"}}>
+        <h4 className="title" >
         {title} </h4>
  <ResponsiveContainer width="99%" aspect={aspect}>
  <AreaChart width={730} height={250} data={data}
@@ -33,7 +33,7 @@ const Chart=({aspect, title})=>{
     </linearGradient>
     
   </defs>
-  <XAxis dataKey="name"  stroke='blue'/>
+  <XAxis dataKey="name"  stroke='gray'/>
 
   <CartesianGrid strokeDasharray="3 3" className='chartGrid' />
   <Tooltip />

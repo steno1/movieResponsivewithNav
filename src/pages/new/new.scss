@@ -3,14 +3,14 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #fffbeb;
+    //background-color: #fffbeb;
     justify-content: center;
     
     }
     
     
     .newGlass{
-      background-color: #fffbeb;
+      //background-color: #fffbeb;
       display: grid;
       height: 100vh;
       width: 100vw;
@@ -45,11 +45,47 @@ h1{
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            object-fit: contain;
+            object-fit: cover;
           }
         }
         .right{
           flex: 2;
+          form{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            .formInput{
+              width: 40%;
+              label{
+                display: flex;
+                //align-items: center;
+                gap: 20px;
+                .icon{
+                  cursor: pointer;
+                }
+                
+              }
+              input{
+                width: 100%;
+                padding: 5px;
+      
+                outline: none;
+                background-color: black;
+                color: white;
+              }
+            }
+            button{
+              width: 150px;
+              background-color:black;
+              padding: 10px;
+              outline: none;
+              color: white;
+              font-weight: bold;
+              cursor: pointer;
+              margin-top: 10px;
+            }
+          }
         }
 
       }
