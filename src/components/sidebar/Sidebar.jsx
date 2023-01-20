@@ -55,10 +55,7 @@ const Sidebar=()=>{
         {/*when window.innerWidth<=768? it will return true, 
          then variant will be true, thats side bar left is 0
          */}
-        
-        
-
-        
+         
         {/* logo */}
        <div className="top">
        <Link to="/" style={{textDecoration:'none'}}>

@@ -50,11 +50,12 @@ const Single=()=>{
     <div className="right">
 <Chart aspect={4 / 1}
     title=" User Spending (Last 6 Months)"
+    className="chart"
 />
     </div>
     </div>
     <div className="bottom">
-    <Table/>
+    <Table className="table"/>
     </div>
 
 </div>
