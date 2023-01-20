@@ -29,13 +29,20 @@
 
 @media screen and (max-width:768px) {
     .chart{
+        .recharts-responsive-container{
+            //background-color: red !important;
+            height: 20%;
+        }
     
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 400px !important;
-        background-color:rgb(160, 212, 160);
+        //background-color:rgb(160, 212, 160);
         margin-top: 30px;
         border-radius: 10px;
+        height: 30% !important;
+        margin-left: 1px !important;
+        
     }
 }

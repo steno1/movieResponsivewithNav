@@ -70,11 +70,14 @@ const Sidebar=()=>{
         <div className="center">
 <ul>
     <p className='title'> Main</p>
+    <Link to="/" style={{textDecoration:'none'}}>
     <li>
         <DashboardOutlinedIcon className="icon"/>
         <span>Dashboard</span>
         
     </li>
+    </Link>
+    
 
     <p className='title'> List</p>
     <Link to="/users" style={{textDecoration:'none'}}>

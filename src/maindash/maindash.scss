@@ -32,9 +32,21 @@ margin-right: 0;
 //mobile responsiveness
 @media screen and (max-width:768px) {
     .maindash{
+        //background-color: yellow;
+        
     
 align-items: center;
 justify-content: center;
+.cards{
+    display: flex;
+    
+    align-items: center;
+justify-content: center;
+//background-color: red;
+padding: 20px;
+margin-left: 0;
+
+}
 
 
     } 
