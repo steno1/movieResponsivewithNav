@@ -1,3 +1,10 @@
+This is an Admin Dashboard designed using react. It is made up of many components, like widgets which show the User, Order, Earning and Balance.
+Also, it contains tables for recent transactions, graphs for Revenue, User page etc
+It also has some features like Light and Dark mode button and also toggle button for switching between light and dark mode
+it has page for uploading User profile pictures
+it has also, a page where you can delete users, or click to view Users informations
+it is also very responsive. You can check it out
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
