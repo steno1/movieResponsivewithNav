@@ -10,10 +10,11 @@ import { useState } from "react";
   
 
 const DataTable =()=>{
-  const [data, setData]=useState(UserRows);
-  const handleDelete=(id)=>{
+  const [data, setData]=useState(UserRows);//targetting rows
+  
+   const handleDelete=(id)=>{
     setData(data.filter(item=>item.id !==id))
-    }
+   }
     const actionColumn=[
       {
           field:"action", headerName:'Action', width:200, 
@@ -45,7 +46,7 @@ Add New
         </div>
        
       <DataGrid
-        rows={data}
+        rows={data}//let userRows=data
         columns={Usercolumns.concat(actionColumn)}
         pageSize={5}
         rowsPerPageOptions={[5]}

@@ -378,6 +378,47 @@ color: gray;
 
        } 
       }
+      //sidebar
+
+      //mobile responsiveness
+@media screen and (max-width:768px) {
+    .all{
+margin-top: 0 !important;
+   
+    .sidebar{
+        position: fixed;
+        z-index: 999;
+        background-color:black !important;
+        
+
+        .top{
+        display: flex;
+       
+        .center{
+            span:nth-child(2){
+                display: flex;
+            }
+        }
+    }
+    
+    .center{
+        span:nth-child(2){
+            display: flex;
+        }
+        
+        
+    }
+    
+}
+.bars{
+    
+   
+    background-color: black;
+    color: gray;
+    
+}
+}
+}
      
     }
 

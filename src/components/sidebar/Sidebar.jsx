@@ -45,7 +45,7 @@ const Sidebar=()=>{
         <div className="bars" 
        style={expanded?{left:"60%"}:{left:"1%"}}
         onClick={()=>setExpanded(!expanded)}>
-          <UilBars/>  
+          <UilBars className="bar"/>  
         </div>
         {/* features from framer motion library*/}
         <motion.div className="sidebar"

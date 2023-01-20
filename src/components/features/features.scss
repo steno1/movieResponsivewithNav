@@ -110,9 +110,20 @@ padding: 1px;
 }
 }
 
+@media screen and (max-width:1200px) {
+    .features{
+        width: 17rem;
+        margin-right: 20px;
+    }
+    
+}
+
+
+
 @media screen and (max-width:768px) {
     .features{
         margin-right: 30px;
+        margin-top: 40px !important;
     }
     
 }

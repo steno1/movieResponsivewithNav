@@ -15,8 +15,8 @@ darkMode:false
         
         //break;
 
-    default:
-        break;
+    default:return state
+       // break;
 }
 }
 export default DarkModeReducer;
